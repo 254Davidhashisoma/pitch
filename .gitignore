@@ -1,0 +1,4 @@
+virtual/
+*.pyc
+.Vscode/
+start.sh
