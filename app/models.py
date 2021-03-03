@@ -1,6 +1,6 @@
-
+from . import db
 from werkzeug.security import generate_password_hash,check_password_hash
-# from flask_login import UserMixin
+from flask_login import UserMixin
 from . import login_manager
 from datetime import datetime
 
@@ -47,7 +47,7 @@ class Pitch(db.Model):
     pitch_content = db.Column(db.String(1000))
     category = db.Column(db.String)
     posted = db.Column(db.DateTime,default=datetime.utcnow)
-    user_id = db.Column(db.Integer,db.ForeignKey("users.id"))
+    user_id = db.Column(db.Integer,db.ForeignKey("users.id"))   
     likes = db.Column(db.Integer)
     dislikes = db.Column(db.Integer)
 
