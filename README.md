@@ -1,6 +1,6 @@
 # pitch
 
-#### Author: [Benard Akaka](https://github.com/264Davidhashisoma)
+#### Author: [David Hashisoma](https://github.com/264Davidhashisoma)
 
 
 * Link to live site: 
